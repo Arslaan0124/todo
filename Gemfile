@@ -11,6 +11,8 @@ gem "rails", "~> 7.1.2"
 gem "puma", ">= 5.0"
 
 gem 'pg'
+gem 'sidekiq'
+gem 'redis-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
@@ -45,5 +47,7 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
+  gem 'rspec-rails', '~> 6.0.0'
+  gem 'shoulda-matchers', '~> 5.0'
 end
 
